@@ -20,10 +20,10 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 end
 
 def all_winter_holiday_supplies(holiday_hash)
-  supps = holiday_hash[:winter].map do |x, y|
+  z = holiday_hash[:winter].map do |x, y|
     y
   end
-  supps.flatten
+  z.flatten
 end
 
 def all_supplies_in_holidays(holiday_hash)
