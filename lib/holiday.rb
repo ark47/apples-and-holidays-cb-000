@@ -40,9 +40,9 @@ def all_supplies_in_holidays(holiday_hash)
         b = z.to_s.gsub(/_/, ' ').split
           d = b.map do |c|
             c.capitalize!
-            d.join(" ")
           end
-        puts "  #{z}: #{a.join(', ')}"
+          e = d.join(" ")
+        puts "  #{e}: #{a.join(', ')}"
       end
   end
 
