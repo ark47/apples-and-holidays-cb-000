@@ -38,6 +38,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{x.capitalize}:"
       y.each do |z, a|
         b = z.to_s.gsub(/_/, ' ').split
+        binding.pry
           b.each do |c|
             c.capitalize!
           end
