@@ -54,7 +54,7 @@ def all_holidays_with_bbq(holiday_hash)
   barbeeque = []
   holiday_hash.each do |x, y|
     y.each do |z, a|
-    a.any?("BBQ")
+    if a == "BBQ"
     barbeeque << x
   end
   end
