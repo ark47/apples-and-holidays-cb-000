@@ -41,7 +41,6 @@ def all_supplies_in_holidays(holiday_hash)
           b.each do |c|
             c.capitalize!
           end
-          binding.pry
         puts "  #{z}: #{a.join(', ')}"
       end
   end
