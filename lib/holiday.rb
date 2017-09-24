@@ -23,7 +23,7 @@ def all_winter_holiday_supplies(holiday_hash)
   z = holiday_hash[:winter].map do |x, y|
     z
   end
-  supps.flatten
+  z.flatten
 end
 
 def all_supplies_in_holidays(holiday_hash)
